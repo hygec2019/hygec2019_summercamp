@@ -40,6 +40,17 @@ int main(){
 				translateMessage(mode, Msg, key, TMsg);
 				printf("복호문: %s\n", TMsg);
 				break;
+			case 'b':
+				getMessage(Msg);
+				printf("** 메시지를 공격합니다.\n");
+				
+				/* implement here */
+				for (key=1; key<MAX_KEY; key++){{
+					translateMessage(mode,Msg,key,Tmsg);
+					printf(" 키: %d --> %s\n", key, TMsg);
+				}
+				
+				break;
 			case 'x': exit(0);
 		}
 	}
@@ -72,6 +83,7 @@ char getMode(){
 		printf("\n=====================\n");
 		printf("1. 메시지 암호화\n");
 		printf("2. 암호문 복호화\n");
+		printf("3. Brute Force\n");
 		printf("0. 프로그램 종료\n");
 		printf("=====================\n");
 		printf(">> 기능을 선택하세요: ");
@@ -80,6 +92,7 @@ char getMode(){
 		switch(mode){
 			case 1: return 'e';
 			case 2: return 'd';
+			case 3: return 'b';
 			case 0: return 'x';
 		}
 	}
