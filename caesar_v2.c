@@ -45,7 +45,7 @@ int main(){
 				printf("** 메시지를 공격합니다.\n");
 				
 				/* implement here */
-				for (key=1; key<MAX_KEY; key++){{
+				for (key=1; key<MAX_KEY; key++){
 					translateMessage(mode,Msg,key,TMsg);
 					printf(" 키: %d --> %s\n", key, TMsg);
 				}
