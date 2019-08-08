@@ -1,0 +1,31 @@
+TESTCASE1
+{'P', 'S', 'R', 'P', 'P', 'R', 'R', 'P', 'R', 'R', 'S', 'S', 'R', 'R', 'S', 'R', 'P', 'P', 'P', 'R'}
+>>> win: duyang hy: 2, dy: 4, draw: 4
+
+TESTCASE2
+{'R', 'S', 'S', 'R', 'S', 'R', 'S', 'R', 'P', 'R', 'P', 'P', 'R', 'R', 'P', 'R', 'P', 'R', 'R', 'P'}
+>>> win: N/A hy: 4, dy: 4, draw: 2
+
+TESTCASE3
+{'P', 'R', 'S', 'S', 'S', 'R', 'S', 'R', 'R', 'P', 'P', 'R', 'R', 'R', 'P', 'P', 'P', 'R', 'R', 'R'}
+win: N/A hy: 3, dy: 3, draw: 4
+
+TESTCASE4
+{'S', 'P', 'P', 'R', 'S', 'R', 'R', 'P', 'R', 'P', 'R', 'R', 'S', 'P', 'S', 'R', 'P', 'R', 'R', 'R'}
+win: N/A hy: 4, dy: 4, draw: 2
+
+TESTCASE5
+{'P', 'S', 'P', 'S', 'P', 'P', 'S', 'R', 'R', 'S', 'R', 'P', 'R', 'R', 'P', 'R', 'P', 'S', 'R', 'R'}
+win: duyang hy: 2, dy: 5, draw: 3
+
+TESTCASE6
+{'R', 'R', 'P', 'R', 'P', 'S', 'R', 'S', 'R', 'R', 'P', 'P', 'P', 'S', 'S', 'P', 'S', 'P', 'S', 'R'}
+win: hanyang hy: 4, dy: 3, draw: 3
+
+TESTCASE7
+{'P', 'R', 'P', 'R', 'R', 'R', 'P', 'S', 'S', 'S', 'S', 'S', 'R', 'R', 'P', 'P', 'S', 'P', 'P', 'R'}
+win: hanyang hy: 4, dy: 1, draw: 5
+
+TESTCASE8
+{'S', 'R', 'S', 'P', 'P', 'P', 'P', 'R', 'R', 'S', 'R', 'S', 'R', 'P', 'R', 'P', 'P', 'R', 'S', 'S'}
+win: hanyang hy: 5, dy: 3, draw: 2
